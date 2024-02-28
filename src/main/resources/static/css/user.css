@@ -1,0 +1,160 @@
+.user-search{
+    width: 500px;
+    display: flex;
+}
+.btn-secondary {
+    background-color: rgb(228, 227, 227) !important;
+    color: black !important;
+    border: 1px solid rgb(183, 179, 179) !important;
+}
+table {
+    width: 100%;
+}
+thead {
+    background-color: rgb(228, 227, 227);
+    height: 40px;
+}
+tbody > tr > td > input {
+    margin-left: 10px;
+}
+tbody > tr {
+    height: 40px;
+    border-bottom: 1px solid rgb(228, 227, 227);
+    margin: 0px 10px;
+}
+tbody > tr > td > a {
+    color: black !important;
+}
+thead > tr > th > input {
+    margin-left: 10px;
+}
+.user-management {
+    width: 100%;
+    margin: 20px;
+    margin-left: 0;
+    border: 1px solid rgb(186, 183, 183);
+    border-radius: 5px;
+    background-color: white;
+}
+.user-search{
+    width: 500px;
+    display: flex;
+}
+.btn-secondary {
+    background-color: rgb(228, 227, 227) !important;
+    color: black !important;
+    border: 1px solid rgb(183, 179, 179) !important;
+}
+table {
+    width: 100%;
+}
+thead {
+    background-color: rgb(228, 227, 227);
+}
+.modal-content {
+    width: 1000px !important;
+    margin-left: -50%;
+}
+.modal-footer {
+    justify-content: center !important;
+}
+.content-addUser {
+    padding: 10px;
+}
+.content-addUser > div{
+    display: flex;
+    border-top: 1px solid rgb(158, 155, 155);
+
+    padding: 5px;
+}
+.label-text {
+    width: 250px !important;
+    font-weight: bolder;
+}
+.input-style {
+    width: 120px !important;
+}
+.department-content {
+    display: flex;
+}
+.user-department {
+    background-color: rgb(228, 227, 227);
+    border: 5px solid rgb(187, 183, 183);
+    padding: 5px;
+    width: 100%;
+    margin-top: -10px;
+}
+.department-input {
+    width: 80%;
+}
+.department-input > p {
+    font-weight: 600;
+}
+.department-input > select {
+    width: 320px;
+    height: 150px;
+}
+.department-input > div {
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.department-input > div > button {
+    background-color: white;
+}
+.btn-department {
+    color: black !important;
+}
+.positon-input > select {
+    width: 600px;
+}
+.btn-positon {
+    margin-top: 10px;
+    color: black !important;
+}
+.department-right {
+    width: 680px;
+}
+.user-title {
+    border-bottom: 1px solid rgb(187, 183, 183);
+    padding: 10px;
+}
+.user-title > a {
+    color: black;
+    text-decoration: underline;
+}
+.user-add,.user-search,.user-btn {
+    margin: 10px;
+}
+input {
+    border: 1px solid rgb(158, 155, 155) !important;
+}
+h5 {
+    margin-right: 5px;
+    margin-left: -5px;
+    padding-top: 5px;
+}
+.aside-title {
+    margin: 0px 10px !important;
+    font-weight: 400;
+    font-size: 16px !important;
+    background-color: white !important;
+    padding-bottom: 0px !important;
+}
+.user-a {
+    margin: 10px;
+    font-weight: bold;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+small {
+    color: red;
+    margin-top: 5px;
+}

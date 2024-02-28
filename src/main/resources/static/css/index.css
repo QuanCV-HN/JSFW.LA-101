@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(217, 212, 212);
+    height: 70px;
+}
+.header-icon {
+    padding: 10px;
+}
+.header-username {
+    padding: 25px;
+    margin-right: 50px;
+}
+.main {
+    display: flex;
+    height: 100vh;
+    background-color: rgb(225, 222, 222);
+}
+.container-aside {
+    width: 20%;
+    border: 1px solid rgb(186, 183, 183);
+    border-radius: 5px;
+    margin: 20px;
+    background-color: white;
+}
+.container-aside a {
+    text-decoration: none;
+    color: black;
+}
+.aside-title {
+    margin: 10px;
+    font-weight: bold;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.aside-content > a {
+    display: block;
+    padding: 12px;
+    margin-left: 10px;
+}
+.container-main {
+    width: 100%;
+    margin: 20px;
+    margin-left: 0;
+    border: 1px solid rgb(186, 183, 183);
+    border-radius: 5px;
+    background-color: white;
+}
+.main-content {
+    width: 100%;
+}
+.main-title {
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: 1px solid gainsboro;
+}
+.main-title a {
+    color: black;
+}
+.main-content > div{
+    margin: 20px;
+    border-bottom: 1px solid gainsboro;
+}
+.btn-config {
+    margin: 10px;
+    height: 30px;
+    width: 120px;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    cursor: pointer;
+}
+.btn-config i {
+    padding-right: 5px;
+}
+.btn-config:hover {
+    background-color: rgb(217, 220, 222);
+}
+.config {
+    display: flex;
+    justify-content: end;
+    border-bottom: none !important;
+}
+.content-text {
+    margin: 20px;
+    border-bottom: 1px solid gainsboro;
+    font-weight: 600;
+}
+.content-text p {
+    display: inline;
+    font-weight: 100;
+}
+.main-content p {
+    margin: 20px;
+    border-bottom: 1px solid gainsboro;
+}
+.edit {
+    display: flex;
+    justify-content: center;
+}
+.btn-edit {
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    margin-top: -15px;
+    margin-bottom: 5px;
+}
+.btn-edit:hover {
+    cursor: pointer;
+    background-color: rgb(217, 220, 222);
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div th:fragment="header">
+        <div class="header">
+            <div class="header-icon">
+                <img src="./img/Capture.PNG" alt="">
+            </div>
+            <div class="header-username">Admin</div>
+        </div>
+    </div>
+
+
+        <div class="container-aside" th:fragment="aside">
+            <div class="aside-title"><a th:href="@{/index}">Basic information</a></div>
+            <div class="aside-content">
+                <a href="">import</a>
+                <a th:href="@{/user}" class="user-a">User management</a>
+                <a href="">Department management</a>
+                <a href="">Position management</a>
+                <a href="">Equipment management</a>
+                <a href="">Application management</a>
+                <a href="">Workflow management</a>
+                <a href="">Time card management</a>
+                <a href="">Access rights management</a>
+                <a href="">Event Log Management</a>
+            </div>
+        </div>
+
+</body>
+</html>
